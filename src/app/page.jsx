@@ -3,7 +3,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Logo from './public/assets/logo.png'
 import Hero from './components/Hero';
-import './style.scss'
 import Features from './components/Features';
 
 const Home = () => {
