@@ -1,8 +1,9 @@
+"use client"
 import React from 'react';
 import Cookies from 'js-cookie';
 import { useRouter } from 'next/navigation';
 
-const Logout = () => {
+const Logout = ({ translations }) => {
   const router = useRouter();
 
   const handleLogout = () => {
@@ -15,7 +16,7 @@ const Logout = () => {
 
   return (
     <button onClick={handleLogout} className="bg-red-500 text-white py-2 px-4 rounded">
-      Logout
+      {translations["Logout"] || "Logout"}
     </button>
   );
 };
