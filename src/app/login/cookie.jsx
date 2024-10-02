@@ -1,9 +1,9 @@
+// src/app/login/cookie.jsx
 import React, { useEffect, useState } from 'react';
-import Cookies from 'js-cookie';
 import { useRouter } from 'next/navigation';
 
-const cookie = () => {
-  const [token, setToken] = useState('');
+const Cookie = () => {
+  const [someState, setSomeState] = useState(null);
   const router = useRouter();
 
   useEffect(() => {
@@ -29,4 +29,5 @@ const cookie = () => {
   );
 };
 
-export default cookie;
+export default Cookie;
+
