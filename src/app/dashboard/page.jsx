@@ -1,7 +1,7 @@
 'use client'
 import { FaLanguage } from 'react-icons/fa';
 import withAuth from '../utils/withAuth';
-import Logout from '../login/logout';
+import Logout from '../[login]/logout';
 import Arabic from '../translation/en-ar/global.json';
 import { useLanguage } from '../context/LanguageContext';
 import { useEffect } from 'react';
